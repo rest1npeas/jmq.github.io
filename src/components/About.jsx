@@ -16,7 +16,7 @@ const About = () => {
     {
       icon: FaRocket,
       title: 'Fast & Optimized',
-      description: 'Building high-performance applications with optimized loading times.'
+      description: 'Building high-performance websites with optimized loading times.'
     }
   ]
 

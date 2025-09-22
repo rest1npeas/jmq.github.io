@@ -14,8 +14,7 @@ const Hero = () => {
               Fron-End Web Developer
             </h2>
             <p className="text-lg mb-8 leading-relaxed">
-              I create beautiful and functional web applications using modern technologies. 
-              Passionate about clean code, user experience, and bringing ideas to life.
+              Ang design sama sa akong dagway, way klaro. Bahala na, sunda lang nang gipitik sa imong dughan :))
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#projects" className="btn-primary flex items-center gap-2">
@@ -28,9 +27,9 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="w-80 h-80 mx-auto bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center">
-              <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center">
-                <span className="text-6xl"></span>
+            <div className="w-72 h-72 mx-auto bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center">
+              <div className="w-72 h-72 rounded-full flex items-center justify-center">
+               <figure><img className="rounded-full w-full" src="/src/images/cattt.png" alt="wa gyud ta ani"></img></figure>
               </div>
             </div>
           </div>
