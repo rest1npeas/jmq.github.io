@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaDownload, FaArrowRight } from 'react-icons/fa'
 
+import pPic from '../images/cattt.png'
+
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center section-padding pt-20 bg-transparent">
@@ -29,7 +31,7 @@ const Hero = () => {
           <div className="relative">
             <div className="w-72 h-72 mx-auto bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center">
               <div className="w-72 h-72 rounded-full flex items-center justify-center">
-               <figure><img className="rounded-full w-full" src="/src/images/cattt.png" alt="wa gyud ta ani"></img></figure>
+               <figure><img className="rounded-full w-full" src={pPic} alt="wa gyud ta ani"></img></figure>
               </div>
             </div>
           </div>
