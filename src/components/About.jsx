@@ -21,11 +21,11 @@ const About = () => {
   ]
 
   return (
-    <section id="about" className="section-padding bg-white">
+    <section id="about" className="section-padding">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary mb-4">About Me</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg max-w-2xl mx-auto">
             I'm a passionate developer with 3+ years of experience creating digital solutions 
             that make a difference.
           </p>
@@ -38,7 +38,7 @@ const About = () => {
                 <feature.icon className="text-2xl" />
               </div>
               <h3 className="text-xl font-semibold text-secondary mb-3">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <p className="">{feature.description}</p>
             </div>
           ))}
         </div>

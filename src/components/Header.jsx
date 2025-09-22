@@ -23,12 +23,12 @@ const Header = () => {
 
   return (
     <header className={`fixed w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      isScrolled ? 'backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="text-2xl font-bold text-primary">
-            Portfolio
+            JMQ
           </a>
           
           {/* Desktop Menu */}

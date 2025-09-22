@@ -9,14 +9,14 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <div class="min-h-screen bg-gray-950 text-white relative bg-[radial-gradient(circle_at_20%_30%,#4f46e5_0%,transparent_25%),radial-gradient(circle_at_80%_70%,#06b6d4_0%,transparent_25%)]">
       <Header />
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      {/* <Projects />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
