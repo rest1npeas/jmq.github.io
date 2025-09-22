@@ -1,30 +1,31 @@
 import React from 'react'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
+import jahImg from '../images/work-samps/jah.jpg'
+import lhImg from '../images/work-samps/lhparagon.jpg'
+import owImg from '../images/work-samps/optimalweight.jpg'
+
 const Projects = () => {
   const projects = [
     {
       title: 'JAH',
       description: 'Powered by Wordpress WooCommerce with customized checkout page.',
-      image: '/src/images/work-samps/jah.jpg',
+      image: jahImg,
       technologies: ['Wordpress Woocommerce', 'PHP', 'jQuery', 'CSS', 'HTML'],
-    //   github: 'https://github.com',
       live: 'https://www.jah-apparel.com/home',
     },
     {
       title: 'LH Paragon',
       description: 'Customized Wordpress theme.',
-      image: '/src/images/work-samps/lhparagon.jpg',
+      image: lhImg,
       technologies: ['Wordpress', 'PHP', 'jQuery', 'CSS', 'HTML'],
-    //   github: 'https://github.com',
       live: 'https://www.lhparagon.com/',
     },
     {
       title: 'Optimal Weight Loss Institute',
       description: 'Customized Wordpress Elementor theme',
-      image: '/src/images/work-samps/optimalweight.jpg',
+      image: owImg,
       technologies: ['Wordpress Elementor', 'PHP', 'jQuery', 'CSS', 'HTML'],
-    //   github: 'https://github.com',
       live: 'https://www.optimalweightloss4u.com/',
     },
   ]
@@ -41,7 +42,8 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
               <div className="h-48 bg-gradient-to-br from-primary to-accent flex justify-center">
-                <figure className="w-auto overflow-hidden"><img class="w-80 h-72 object-cover object-top" src={project.image}></img></figure>
+                <figure className="w-auto overflow-hidden"><img
+                    className="w-80 h-72 object-cover object-top" src={project.image} alt={project.title}/></figure>
                 <div className="clearfix"></div>
               </div>
               
@@ -58,9 +60,6 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex space-x-4">
-                  {/* <a href={project.github} className="flex items-center text-gray-600 hover:text-primary transition-colors">
-                    <FaGithub className="mr-2" /> Code
-                  </a> */}
                   <a href={project.live} className="flex items-center text-gray-600 hover:text-primary transition-colors">
                     <FaExternalLinkAlt className="mr-2" /> Visit Site
                   </a>
