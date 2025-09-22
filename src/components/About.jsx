@@ -26,8 +26,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary mb-4">About Me</h2>
           <p className="text-lg max-w-2xl mx-auto">
-            I'm a passionate developer with 3+ years of experience creating digital solutions 
-            that make a difference.
+            I'm a passionate developer with 3+ years of experience creating and maintaining custom themed wordpress sites.
           </p>
         </div>
         

@@ -34,3 +34,4 @@
 
 .text-primary{display: block;}
 .text-secondary{color: #fff;}
+.clearfix{clear:both; overflow: hidden; }

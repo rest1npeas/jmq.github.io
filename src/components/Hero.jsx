@@ -11,7 +11,7 @@ const Hero = () => {
               Hi, I'm <span className="text-primary">Junas Quimod</span>
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6">
-              Fron-End Web Developer
+              Front-End Web Developer
             </h2>
             <p className="text-lg mb-8 leading-relaxed">
               Ang design sama sa akong dagway, way klaro. Bahala na, sunda lang nang gipitik sa imong dughan :))
