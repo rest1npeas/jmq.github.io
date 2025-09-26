@@ -18,7 +18,7 @@ const Header = () => {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
+    // { name: 'Contact', href: '#contact' },
   ]
 
   return (
@@ -55,7 +55,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 bg-white/95 backdrop-blur-md rounded-lg shadow-lg p-4">
+          <div className="md:hidden mt-4 bg-transparent backdrop-blur-md rounded-lg p-4">
             {navItems.map((item) => (
               <a
                 key={item.name}

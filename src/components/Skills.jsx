@@ -8,6 +8,8 @@ const Skills = () => {
     { name: 'jQuery', level: 90 },
     { name: 'PHP', level: 75 },
     { name: 'CMS (Wordpress, Wix, Shopify)', level: 80 },
+    { name: 'Web Design Tools (Xara, Figma)', level: 70 },
+    { name: 'Git, SQL, Web Security', level: 70 },
   ]
 
   return (
