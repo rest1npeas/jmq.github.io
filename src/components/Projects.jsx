@@ -31,7 +31,7 @@ const Projects = () => {
   ]
 
   return (
-    <section id="projects" className="section-padding">
+    <section className="section-padding">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary mb-4">Websites I Worked With</h2>
